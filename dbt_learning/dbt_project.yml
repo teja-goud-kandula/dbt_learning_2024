@@ -41,6 +41,10 @@ models:
     raw:
       +database: raw
       +schema: jaffle_shop
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table
 
 seeds:
   dbt_learning:
