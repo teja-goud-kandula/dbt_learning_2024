@@ -38,3 +38,10 @@ models:
       +schema: example
     marketing:
       +schema: marketing 
+    raw:
+      +database: raw
+      +schema: jaffle_shop
+
+seeds:
+  dbt_learning:
+    +schema: seed_data
