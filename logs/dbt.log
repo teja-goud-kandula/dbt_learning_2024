@@ -22,3 +22,7 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 [0m14:49:00.656357 [info ] [MainThread]: Setting up your profile.
+[0m14:55:47.349695 [info ] [MainThread]: Profile dbt_learning written to C:\Users\rocks\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:55:47.351709 [debug] [MainThread]: Command `dbt init` succeeded at 14:55:47.351709 after 406.82 seconds
+[0m14:55:47.352709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001727F9A3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017202477880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017202476230>]}
+[0m14:55:47.353711 [debug] [MainThread]: Flushing usage events
