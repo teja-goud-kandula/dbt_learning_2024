@@ -49,3 +49,4 @@ models:
 seeds:
   dbt_learning:
     +schema: seed_data
+    +database: RAW
